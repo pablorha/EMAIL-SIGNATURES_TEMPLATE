@@ -20,13 +20,13 @@
 								</td>
 							</tr>
 						</tbody>
-					</table>&nbsp;<table cellpadding="0" cellspacing="0" style="display:inline-block;height:120px;max-width:100%;">
+					</table><table cellpadding="0" cellspacing="0" style="display:inline-block;height:120px;max-width:100%;">
 						<tbody>
 							<tr>
 								<td cellpadding="0" cellspacing="0" height="120" valign="bottom" style="line-height:0;width:147px"><img src="<?php echo $employee[0]['image']; ?>" alt="<?php echo $employee[0]['name'] . " " . $employee[0]['surname']; ?>" style="width:auto;height:120px;"></td>
 							</tr>
 						</tbody>
-					</table>&nbsp;<table cellpadding="0" cellspacing="0" style="display:inline-block;height:114px;max-width:100%">
+					</table><table cellpadding="0" cellspacing="0" style="display:inline-block;height:114px;max-width:100%">
 						<tbody>
 							<tr>
 								<td>
