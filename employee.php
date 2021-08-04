@@ -2,13 +2,23 @@
 
 $employee = [
 
+    // [
+    //     'name' => 'Name',
+    //     'surname'=> 'Surname',
+    //     'job' => 'Job',
+    //     'image' => 'https://previews.123rf.com/images/mkistryn/mkistryn1301/mkistryn130100036/17300239-black-and-white-profile-of-famous-statue-of-david-by-michelangelo-florence-tuscany-italy-europe.jpg',
+    //     'email' => 'email',
+    //     'phone' => '0400-123-456'
+    // ],
+
     [
-        'name' => 'Name',
-        'surname'=> 'Surname',
-        'job' => 'Job',
-        'image' => 'https://previews.123rf.com/images/mkistryn/mkistryn1301/mkistryn130100036/17300239-black-and-white-profile-of-famous-statue-of-david-by-michelangelo-florence-tuscany-italy-europe.jpg',
-        'email' => 'email',
-        'phone' => '0400-123-456'
+        'name' => 'Jacob',
+        'surname' => 'Field',
+        'job' => 'Ripehouse Group CEO and Property Investor',
+        'image' => 'https://www.ripehouse.com.au/wp-content/uploads/2020/11/jftrans_signature.png',
+        'email' => 'jacob',
+        'phone' => '0468-315-593',
+        'bio' => 'Jacob Field has been investing in property for almost 20 years and founded Ripehouse in 2011. Since then, Jacob has helped thousands of investors buy their first or their fortieth property. He has regularly featured in API Magazine, SMH, Money Magazine, Herald Sun and the Daily Telegraph.'
     ],
     
     [
