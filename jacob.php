@@ -4,12 +4,12 @@ require_once('employee.php');
 
 ?>
 
-<table border-spacing="0" cellpadding="0" cellspacing="0" width="100%" style="background-color: #ffffff; font-family: 'barlow', sans-serif;">
+<table border-spacing="0" cellpadding="0" cellspacing="0" width="auto" style="background-color: #ffffff; font-family: 'barlow', sans-serif;">
     <tr>
-        <td border-spacing="0" cellpadding="0" cellspacing="0" valign="center" style="text-align:center;">
-            <table border-spacing="0" cellpadding="0" cellspacing="0" style="display:inline-block;height:100%;max-width:100%;min-width:33%;">
+        <td border-spacing="0" cellpadding="0" cellspacing="0" valign="center" style="text-align:left;line-height:0;">
+            <table border-spacing="0" cellpadding="0" cellspacing="0" style="display:inline-block;height:100%;">
                 <tr>
-                    <td border-spacing="0" style="letter-spacing:.05em; padding: 1.5em 2em; text-align: left;">
+                    <td border-spacing="0" style="letter-spacing:.05em; padding: 1.5em 1em; text-align: left;box-sizing: border-box;">
                         <h3 style="color: #ab8d3d; font-weight: 500; text-transform:uppercase; margin:0; padding:0;"><?php echo $employee[0]['name'] . " " . $employee[0]['surname']; ?></h3>
                         <p style="color: #171a35; font-size:.8em; text-transform:uppercase; margin:0; padding:0;"><?php echo $employee[0]['job']; ?></p>
                         <hr style="margin: .3em 0; border-top:1px dotted #ab8d3d;">
@@ -22,16 +22,18 @@ require_once('employee.php');
                     </td>
                 </tr>
             </table>
-
-            <table border-spacing="0" cellpadding="0" cellspacing="0" style="display: inline-block; height:100%; max-width: 100%; min-width:33%;">
+        </td>
+        <td border-spacing="0" cellpadding="0" cellspacing="0" valign="center" style="text-align:left;">
+            <table border-spacing="0" cellpadding="0" cellspacing="0" style="display: inline-block; height:100%;;">
                 <tr>
-                    <td border-spacing="0" cellpadding="0" cellspacing="0" height="120" valign="bottom" style="line-height: 0; text-align: center; width: 100%;">
+                    <td border-spacing="0" cellpadding="0" cellspacing="0" height="120" valign="bottom" style="line-height: 0; text-align: center;">
                         <img src="<?php echo $employee[0]['image']; ?>" alt="<?php echo $employee[0]['name'] . " " . $employee[0]['surname']; ?>" style="width:auto;height:120px">
                     </td>
                 </tr>
             </table>
-
-            <table border-spacing="0" cellpadding="0" cellspacing="0" style="display: inline-block; height:100%; max-width: 100%; min-width:33%;">
+        </td>
+        <td border-spacing="0" cellpadding="0" cellspacing="0" valign="center" style="text-align:left;">
+            <table border-spacing="0" cellpadding="0" cellspacing="0" style="display: inline-block; height:100%;">
                 <tr>
                     <td>
                         <table style="margin: 2em 0;">
@@ -52,87 +54,81 @@ require_once('employee.php');
 
         </td>
     </tr>
-</table>
-
-<table border-spacing="0" cellpadding="0" cellspacing="0" width="100%">
     <tr>
-        <td border-spacing="0" style="color: #171a35; font-size:.7em; font-family: 'barlow', sans-serif; padding:1em 3em 3em 3em;">
+        <td colspan="3" border-spacing="0" style="color: #171a35; font-size:.7em; font-family: 'barlow', sans-serif; padding:1em 1em 3em 1em;">
             <span>
-                <i><?php echo $employee[0]['bio']; ?></i>
+                <i style="max-width:100%"><?php echo $employee[0]['bio']; ?></i>
             </span>
         </td>
     </tr>
-</table>
-
-
-<table border-spacing="0" cellpadding="0" cellspacing="0" width="100%">
     <tr>
-        <td border-spacing="0" cellpadding="0" cellspacing="0">
+        <td colspan="3" border-spacing="0" cellpadding="0" cellspacing="0">
             <hr style="margin: 0 0 .3em 0; border-top:1px dotted #ab8d3d;">
         </td>
     </tr>
-</table>
 
-<table border-spacing="0" cellpadding="0" cellspacing="0" width="100%">
     <tr>
         <td style="text-align:center">
-            <table border-spacing="0" cellpadding="0" cellspacing="0" style="color:#ab8d3d; display: inline-block; font-family: 'barlow', sans-serif; font-size: .7em; min-width: 33%; text-transform: uppercase;">
+            <table border-spacing="0" cellpadding="0" cellspacing="0" style="color:#ab8d3d; display: inline-block; font-family: 'barlow', sans-serif; font-size: .7em; text-transform: uppercase;">
                 <tr>
-                    <td style="color:#171a35; padding:1em 3em; text-align: center; text-decoration: none;">
+                    <td style="color:#171a35; text-align: center; text-decoration: none;">
                         <table>
                             <tr>
-                                <td style="padding: 2em;">
-                                    <span style="font-size: .8em; font-weight: 600;">FREE 20-Year Personalised Wealth Plan</span>
+                                <td style="padding: 2em 0; text-align:center;">
+                                    <span style="font-size: .6em; font-weight: 600;">FREE 20-Year Personalised Wealth Plan</span>
                                 </td>
                             </tr>
                             <tr>
                                 <td style="text-decoration:none!important;text-align:center;">
-                                    <a href="https://www.ripehouseacquisitions.com.au/consultation" target="_blank" style="border: 1px solid #171a35; background-color: #171a35; border-radius: 2em; color:#ffffff; padding: .6em 2em; text-decoration: inherit !important;font-size: .8em;">Book a 60-min Consultation</a>
+                                    <a href="https://www.ripehouseacquisitions.com.au/consultation" target="_blank" style="border: 1px solid #171a35; background-color: #171a35; border-radius: 2em; color:#ffffff; padding: .6em 2em; text-decoration: inherit !important;font-size: .6em;">Book a 60-min Consultation</a>
                                 </td>
                             </tr>
                         </table>
                     </td>
                 </tr>
             </table>
-
-            <table border-spacing="0" cellpadding="0" cellspacing="0" style="color:#ab8d3d; display: inline-block; font-family: 'barlow', sans-serif; font-size: .7em; min-width: 33%; text-transform: uppercase;">
+        </td>
+        <td style="text-align:center">
+            <table border-spacing="0" cellpadding="0" cellspacing="0" style="color:#ab8d3d; display: inline-block; font-family: 'barlow', sans-serif; font-size: .7em; text-transform: uppercase;">
                 <tr>
-                    <td style="color:#171a35;padding:1em 3em; text-align: center; text-decoration: none;">
+                    <td style="color:#171a35; text-align: center; text-decoration: none;">
                         <table>
                             <tr>
-                                <td style="padding: 2em;">
-                                    <span style="font-size: .8em;font-weight: 600;">Property Investment Training</span><span style="margin-right: 1em;font-size: .7em;"> (NO-Cost)</span>
+                                <td style="padding: 2em 0; text-align:center;">
+                                    <span style="font-size: .6em;font-weight: 600;">Property Investment Training</span><span style="margin-right: 1em;font-size: .6em;"> (NO-Cost)</span>
                                 </td>
                             </tr>
                             <tr>
                                 <td style="text-decoration:none!important;text-align:center;">
-                                    <a href=" https://enquiry.ripehouseadvisory.com.au/online-training" target="_blank" style="border: 1px solid #171a35; border-radius: 2em; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; color:#171a35; padding: .6em 2em; text-decoration: inherit !important;font-size: .8em;">Click here</a>
+                                    <a href=" https://enquiry.ripehouseadvisory.com.au/online-training" target="_blank" style="border: 1px solid #171a35; border-radius: 2em; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; color:#171a35; padding: .6em 2em; text-decoration: inherit !important;font-size: .6em;">Click here</a>
                                 </td>
                             </tr>
                         </table>
                     </td>
                 </tr>
             </table>
-
-            <table border-spacing="0" cellpadding="0" cellspacing="0" style="color:#ab8d3d; display: inline-block; font-family: 'barlow', sans-serif; font-size: .7em; min-width: 33%; text-transform: uppercase;">
+        </td>
+        <td style="text-align:center">
+            <table border-spacing="0" cellpadding="0" cellspacing="0" style="color:#ab8d3d; display: inline-block; font-family: 'barlow', sans-serif; font-size: .7em; text-transform: uppercase;">
                 <tr>
-                    <td style="color:#171a35;padding:1em 3em; text-align: center; text-decoration: none;">
+                    <td style="color:#171a35; text-align: center; text-decoration: none;">
                         <table>
                             <tr>
-                                <td style="padding: 2em;">
-                                    <span style="font-size: .8em; font-weight: 600;">High Performance Property investment Group</span><span style="margin-right: 1em;font-size: .8em;"> (Private)</span>
+                                <td style="padding: 2em 0; text-align:center;">
+                                    <span style="font-size: .6em; font-weight: 600;">High Performance Property investment Group</span><span style="margin-right: 1em;font-size: .6em;"> (Private)</span>
                                 </td>
                             </tr>
                             <tr>
                                 <td style="text-decoration:none!important;text-align:center;">
-                                    <a href=" https://www.facebook.com/groups/highperformancepropertyinvestment" target="_blank" style="border: 1px solid #171a35; border-radius: 2em; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; color:#171a35; padding: .6em 2em; text-decoration: inherit !important;font-size: .8em;">Join Now</a>
+                                    <a href=" https://www.facebook.com/groups/highperformancepropertyinvestment" target="_blank" style="border: 1px solid #171a35; border-radius: 2em; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; color:#171a35; padding: .6em 2em; text-decoration: inherit !important;font-size: .6em;">Join Now</a>
                                 </td>
                             </tr>
                         </table>
                     </td>
                 </tr>
             </table>
-
         </td>
     </tr>
+
+
 </table>

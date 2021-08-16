@@ -12,6 +12,24 @@ $employee = [
     // ],
 
     [
+        'name' => 'Kevin',
+        'surname'=> 'Alexander',
+        'job' => 'Social Media Manager',
+        'image' => 'https://www.ripehouseacquisitions.com.au/wp-content/uploads/kevin_alexander.png',
+        'email' => 'kevina',
+        'phone' => ''
+    ],
+
+    [
+        'name' => 'Alvin',
+        'surname'=> 'Xiu',
+        'job' => 'Property Research Analyst',
+        'image' => 'https://www.ripehouseacquisitions.com.au/wp-content/uploads/alvin_xiu.png',
+        'email' => 'alvin',
+        'phone' => ''
+    ],
+
+    [
         'name' => 'Jacob',
         'surname' => 'Field',
         'job' => 'Ripehouse Group CEO and Property Investor',
