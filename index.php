@@ -2,6 +2,8 @@
 
 require_once('employee.php');
 
+require_once('classes/Employee.php');
+
 ?>
 
 <table cellpadding="0" cellspacing="0" width="100%" style="color:rgb(0,0,0);font-size:medium;font-family:barlow,sans-serif">
@@ -51,3 +53,23 @@ require_once('employee.php');
 		</tr>
 	</tbody>
 </table>
+
+<?php
+$employee1 = new Employee("Pablo", "Sazo", "Designer / Developer", " ", "pablo", "0481-356-145");
+
+// $employee1->setName("pAblo");
+// $employee1->setSurname("Sazo");
+// $employee1->setJob("Designer / Developer");
+// $employee1->setImage("");
+// $employee1->setEmail("pablo");
+// $employee1->setPhone("0481-356-145");
+$employee1->setName("euclides");
+
+$employee2 = new Employee("Pico", "Parado", "enterrado", "en tu hocico", "lleno de semen", "ahora");
+
+// $employee2->name = "Liam";
+// $employee2->surname = "Chen";
+// $employee2->job = "Front-end Developer";
+$employee2->setSurname("Dulce");
+
+echo "El empleado del año es: " . $employee1->name . " "  . $employee1->surname;
