@@ -2,6 +2,8 @@
 
 require_once('employee.php');
 
+require_once('classes/Employee.php');
+
 ?>
 
 <table cellpadding="0" cellspacing="0" width="100%" style="color:rgb(0,0,0);font-size:medium;font-family:barlow,sans-serif">
