@@ -12,6 +12,15 @@ $employee = [
     // ],
 
     [
+        'name' => 'Amanda',
+        'surname'=> 'Hanson',   
+        'job' => 'Personal Assistant',
+        'image' => 'https://www.ripehouseacquisitions.com.au/wp-content/uploads/amanda_hanson.png',
+        'email' => 'amanda',
+        'phone' => ''
+    ],
+
+    [
         'name' => 'Michael',
         'surname'=> 'Shandler',   
         'job' => 'Client Manager',
@@ -26,15 +35,6 @@ $employee = [
         'job' => 'Wealth Advisor',
         'image' => 'https://www.ripehouseacquisitions.com.au/wp-content/uploads/james_lawrence.png',
         'email' => 'james',
-        'phone' => ''
-    ],
-
-    [
-        'name' => 'Amanda',
-        'surname'=> 'Hanson',   
-        'job' => 'Personal Assistant',
-        'image' => 'https://www.ripehouseacquisitions.com.au/wp-content/uploads/amanda_hanson.png',
-        'email' => 'amanda',
         'phone' => ''
     ],
 
